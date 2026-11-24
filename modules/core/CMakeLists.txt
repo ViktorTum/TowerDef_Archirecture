@@ -1,0 +1,15 @@
+td_add_module(core
+    SOURCES
+        src/Numeric.cpp
+        src/FixedTimeStep.cpp
+        src/Version.cpp
+        src/Diagnostic.cpp
+    TESTS
+        tests/test_numeric.cpp
+        tests/test_ids.cpp
+        tests/test_time.cpp
+        tests/test_geometry.cpp
+        tests/test_hex.cpp
+        tests/test_version.cpp
+        tests/test_diagnostics.cpp
+)
